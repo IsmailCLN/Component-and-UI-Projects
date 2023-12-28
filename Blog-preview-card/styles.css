@@ -1,0 +1,80 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: "Figtree", sans-serif;
+}
+
+h1 {
+  font-family: "Figtree", sans-serif;
+  color: black;
+  font-size: 25px;
+}
+
+.author {
+  font-size: 14px;
+  font-weight: 950;
+  padding-left: 10px;
+}
+
+.author-box {
+  display: flex;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(0, 4%, 65%);
+}
+
+.author-image {
+  width: 40px;
+  height: 40px;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 40%;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: white;
+  border-radius: 17px;
+  box-shadow: 10px 10px;
+  height: 100%;
+}
+
+.in-box {
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 20px 5px 20px 0;
+  padding-left: 15px;
+  font-weight: 600;
+  margin-right: 210px;
+}
+
+.card-image {
+  display: block;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  border-radius: 10px;
+}
