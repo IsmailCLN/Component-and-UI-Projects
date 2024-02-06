@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url("assets/brand/hero-hp-01.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      backdrop-filter: saturate(0%);
+    }
+
+    .box-area {
+      width: 800px;
+    }
+
+    ::placeholder {
+      font-size: 16px;
+    }
+
+    .rounded-4 {
+      border-radius: 20px;
+    }
+
+    .rounded-5 {
+      border-radius: 30px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .box-area {
+        margin: 0px 5px;
+        padding: 0;
+      }
+
+      .left-box {
+        display: none;
+      }
+
+      .right-box {
+        padding: 0;
+      }
+    }
+  </style>
+  <title>Giriş Sayfası</title>
+</head>
+
+<body>
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="row border rounded-5 p-3 shadow box-area bg-light">
+      <!-- Sol kutu -->
+      <div
+        class="col-md-6 col-sm-8 rounded-4 d-md-flex justify-content-center align-items-center flex-column left-box bg-primary d-none d-lg-block"
+        style="background-image: url('../assets/brand/writing.jpg'); background-size: cover; background-size: 100% 100%;">
+      </div>
+      <!-- Sağ kutu -->
+      <div class=" col-md-6 right-box p-3">
+        <div class="row align-items-center">
+          <div class="header-text mb-4">
+            <img src="assets/brand/mazruf_test_logo_siyah.png" alt="Mazruf Logo" width="60%"
+              class="logo mb-3 d-sm-block">
+            <h2>Hoşgeldiniz</h2>
+            <p>Lütfen giriş yapınız.</p>
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control form-control-lg fs-6" placeholder="E-posta adresi">
+          </div>
+          <div class="input-group mb-1">
+            <input type="password" class="form-control mb-3 form-control-lg fs-6" placeholder="Şifre">
+          </div>
+          <div class="input-group mb-3">
+            <button class="btn btn-lg btn-dark w-100 fs-6">Giriş yap</button>
+          </div>
+          <div class="input-group mb-1">
+            <button class="btn btn-lg btn-secondary w-100 fs-6">Vazgeç</button>
+          </div>
+          <p class="mt-5 mb-0 text-dark"><span style="font-size: 20px;">©</span> <span
+              style="font-style: italic; font-size: 12px;">1998-2024 •
+              HayadaSoft Yazılım ve
+              Danışmanlık</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
